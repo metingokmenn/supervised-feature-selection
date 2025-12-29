@@ -1,0 +1,58 @@
+# --- Python Core ---
+__pycache__/
+*.py[cod]
+*$py.class
+
+# --- Virtual Environments (Sanal Ortamlar) ---
+# Kendi bilgisayarındaki venv klasörünü asla repoya atma
+venv/
+env/
+.env
+
+# --- Distribution / Builds ---
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- IDE & Editor Settings (Kişisel ayarlar) ---
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# --- Project Specifics (Proje Özel Ayarları) ---
+
+# 1. Dataset: Veri setleri genellikle büyük boyutludur ve repoya atılmaz.
+# Klasör yapısı kalsın ama içindeki csv/zip dosyaları gitmesin istiyorsan:
+dataset/*.csv
+dataset/*.zip
+dataset/*.txt
+# Ancak dataset klasörünün kendisinin gitmesi için içine boş bir .gitkeep koyabilirsin.
+!dataset/.gitkeep
+
+# 2. Results: Kod çalıştıkça üretilen çıktılar (loglar, resimler).
+# Bunları her seferinde versiyonlamaya gerek yok, kod üretir.
+results/*.png
+results/*.jpg
+results/*.txt
+results/*.csv
+# results klasörünün yapısı korunsun ama içi boş kalsın istiyorsan:
+!results/.gitkeep
+
+# --- Jupyter Notebooks (Eğer kullanırsan) ---
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
