@@ -34,24 +34,6 @@ wheels/
 .DS_Store
 Thumbs.db
 
-# --- Project Specifics (Proje Özel Ayarları) ---
-
-# 1. Dataset: Veri setleri genellikle büyük boyutludur ve repoya atılmaz.
-# Klasör yapısı kalsın ama içindeki csv/zip dosyaları gitmesin istiyorsan:
-dataset/*.csv
-dataset/*.zip
-dataset/*.txt
-# Ancak dataset klasörünün kendisinin gitmesi için içine boş bir .gitkeep koyabilirsin.
-!dataset/.gitkeep
-
-# 2. Results: Kod çalıştıkça üretilen çıktılar (loglar, resimler).
-# Bunları her seferinde versiyonlamaya gerek yok, kod üretir.
-results/*.png
-results/*.jpg
-results/*.txt
-results/*.csv
-# results klasörünün yapısı korunsun ama içi boş kalsın istiyorsan:
-!results/.gitkeep
 
 # --- Jupyter Notebooks (Eğer kullanırsan) ---
 .ipynb_checkpoints
