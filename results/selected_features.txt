@@ -8,7 +8,7 @@ LDA_02, kw_avg_avg, data_channel_is_world, is_weekend, data_channel_is_entertain
 n_unique_tokens, n_non_stop_words, n_non_stop_unique_tokens, data_channel_is_socmed, data_channel_is_tech, kw_min_min, kw_max_min, kw_avg_min, kw_avg_max, kw_min_avg, kw_max_avg, kw_avg_avg, self_reference_avg_sharess, is_weekend, LDA_00
 
 === Embedded (15 Features) ===
-kw_avg_avg, kw_max_avg, LDA_02, self_reference_min_shares, LDA_04, kw_avg_max, kw_avg_min, LDA_01, self_reference_avg_sharess, LDA_00, n_unique_tokens, n_non_stop_unique_tokens, global_subjectivity, average_token_length, global_rate_positive_words
+kw_avg_avg, kw_max_avg, LDA_02, self_reference_min_shares, kw_avg_max, LDA_04, LDA_01, kw_avg_min, self_reference_avg_sharess, LDA_00, n_non_stop_unique_tokens, global_subjectivity, n_unique_tokens, average_token_length, global_rate_positive_words
 
 === Wrapper (Optimum) (40 Features) ===
 n_tokens_content, n_unique_tokens, n_non_stop_words, n_non_stop_unique_tokens, num_hrefs, num_self_hrefs, average_token_length, num_keywords, data_channel_is_lifestyle, data_channel_is_entertainment, data_channel_is_bus, data_channel_is_socmed, data_channel_is_tech, kw_min_min, kw_max_min, kw_avg_min, kw_max_max, kw_avg_max, kw_min_avg, kw_max_avg, kw_avg_avg, self_reference_avg_sharess, weekday_is_friday, weekday_is_saturday, weekday_is_sunday, is_weekend, LDA_00, LDA_01, LDA_02, LDA_03, LDA_04, global_subjectivity, global_rate_positive_words, global_rate_negative_words, rate_positive_words, rate_negative_words, min_positive_polarity, title_subjectivity, title_sentiment_polarity, abs_title_subjectivity

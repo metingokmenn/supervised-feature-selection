@@ -30,7 +30,7 @@ class ModelTrainer:
         # Subset data
         X_train_sub = self.X_train[selected_features]
 
-        # Scaling (Essential for Logistic Regression)
+        
         scaler = StandardScaler()
         X_train_scaled = scaler.fit_transform(X_train_sub)
 
